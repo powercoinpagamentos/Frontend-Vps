@@ -1,0 +1,198 @@
+/* adicionado BELINI */
+.Container_atualizar {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  margin-bottom: 2%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.46%;
+}
+
+/* adicionado BELINI */
+.Botao_atualizar {
+  background-color: transparent !important;
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  height: 35px !important;
+  font-size: 24px;
+  top: 3%;
+  padding: 10px 10px
+}
+
+/* alterado BELINI */
+.Cliente_Dashboard_addbtn {
+  background-color: transparent !important;
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  height: 35px !important;
+  font-size: 24px;
+  top: 3%;
+  padding: 10px 10px
+}
+
+/*  adicionado BELINI */
+.Cliente_Dashboard_sair_admin {
+  background-color: transparent !important;
+  color: blue !important;
+  border: 2px solid blue !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  height: 35px !important;
+  font-size: 24px;
+  top: 3%;
+  padding: 10px 10px
+}
+
+.Cliente_Dashboard_col {
+  margin: 0px 2%;
+}
+
+.Cliente_Dashboard_col_tableLinkA {
+  color: #000000;
+}
+
+.Cliente_Dashboard_col_tableLink {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #878997;
+}
+
+.Cliente_Dashboard_col_tableLink>div {
+  padding: 0 5px;
+}
+
+.Cliente_WarningMsgSpan {
+  display: flex;
+  margin-right: 10px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: red;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .Cliente_Dashboard_staBlockTitle {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
+    margin-left: 32px;
+  }
+
+  .Cliente_Dashboard_col_table {
+    display: none !important;
+  }
+
+  .Cliente-info {
+    display: block !important;
+  }
+
+  .Cliente-footer {
+    display: block !important;
+  }
+}
+
+/* Adicionado - BELINI */
+.Clientes_principal {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  gap: 15px;
+  margin: 15px 30px;
+}
+
+.Cliente_titulo {
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #080808;
+  margin-bottom: 10px;
+}
+
+.Cliente_coluna {
+  width: calc(50% - 12px);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.Cliente_click {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Cliente_click:hover {
+  box-shadow: 0 0 20px rgba(0, 146, 8, 0.5);
+}
+
+.Cliente_nome {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Cliente_email {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Cliente_footer {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Cliente_maquina {
+  font-size: 20px;
+  font-style: italic;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .Clientes_principal {
+    flex-direction: column;
+    /* Exibe os containers um abaixo do outro em telas menores */
+  }
+
+  .Cliente_coluna {
+    width: 100%;
+    /* Em telas menores, os containers ocupam toda a largura */
+  }
+}

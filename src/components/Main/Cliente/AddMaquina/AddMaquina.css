@@ -1,0 +1,127 @@
+/* adicionado BELINI */
+.AddMaquina_header_title {
+  background-color: transparent !important;
+  color: rgb(0, 0, 0) !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  line-height: 1 !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  font-size: 24px;
+  top: 3%;
+  padding: 10px 10px
+}
+
+.AddMaquina_header {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AddMaquina_header_back {
+  background-color: transparent !important;
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  height: 35px !important;
+  font-size: 22px;
+  top: 3%;
+  padding: 10px 10px
+}
+
+.AddMaquina_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  padding: 30px;
+}
+
+.AddMaquina_itemField {
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.AddMaquina_itemFieldLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.AddMaquina_itemField input {
+  /*box-shadow: 0px 0px 0px 2px #FFDE88;*/
+  border-radius: 4px;
+  /*color: black;*/
+  background-color: rgba(242, 242, 242, 0.4);
+  /* color: #fff !important; */
+}
+
+.AddMaquina_itemField .ant-picker {
+  /* Borda verde ao redor do DatePicker */
+  border-radius: 4px;
+  /* Cantos arredondados externos */
+  background-color: rgba(242, 242, 242, 0.4);
+  /* Fundo semelhante ao dos inputs */
+}
+
+/* Remove borda interna e arredondamento do input interno do DatePicker */
+.AddMaquina_itemField .ant-picker-input {
+  border: none;
+  border-radius: 0;
+
+  background-color: transparent;
+}
+
+.AddMaquina_itemField .ant-picker-focused .ant-picker-input {
+  box-shadow: none;
+}
+
+.AddMaquina_itemField input .AddMaquina_inputError {
+  border: 1px solid #e46772;
+}
+
+.AddMaquina_saveBtn {
+  margin-top: 20px;
+  background-color: #0c8ce9;
+  color: #fff;
+  border-radius: 4px;
+  /*padding: 10px;*/
+  height: 40px;
+}
+
+.AddMaquina_saveBtn:hover {
+  background-color: #0c8ce9;
+  color: #fff;
+}
+
+.AddMaquina_itemFieldError {
+  color: #e46772;
+  font-size: 14px;
+  padding: 2px 0;
+}
+
+.AddMaquina_Label_Icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.AddMaquina_Icon {
+  width: 22px;
+  margin-left: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.AddMaquina_Reload_Icon {
+  cursor: pointer;
+}
