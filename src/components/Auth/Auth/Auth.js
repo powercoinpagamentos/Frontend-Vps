@@ -174,21 +174,21 @@ const Auth = (props) => {
 
           <div className="Admin_MediaIcons">
             <a
-              href="https://www.facebook.com/pagmaq?mibextid=9R9pXO"
+              href="https://www.facebook.com/pixcoin?mibextid=9R9pXO"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={FacebookImg} alt="Facebook" className="Admin_Auth_SocialIcon" />
             </a>
             <a
-              href="https://instagram.com/br.pagmaq?igshid=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr"
+              href="https://instagram.com/br.pixcoin?igshid=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={InstagramImg} alt="Instagram" className="Admin_Auth_SocialIcon" />
             </a>
             <a
-              href="https://api.whatsapp.com/send/?phone=5537920007857&text&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5537991029465&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
             >

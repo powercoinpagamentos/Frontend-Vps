@@ -133,7 +133,7 @@ const ConfigAuth = (props) => {
                 className="Config_Auth_authSubmit"
                 onClick={() => navigate("/admin-sign-in")}
               >
-                Acessar Painel ADM PagMaq
+                Acessar Painel ADM PixCoin
               </Button>
             )}
           </div>

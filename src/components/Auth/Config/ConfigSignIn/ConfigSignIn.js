@@ -170,7 +170,7 @@ const ConfigSignIn = (props) => {
             error: errorField?.password ?? "",
           },
         ]}
-        authSubmit={"Iniciar minha PagMaq"}
+        authSubmit={"Iniciar minha PixCoin"}
         textImage={"INICIAR Pag Maq"}
         authImage={signin}
         onsubmit={() => {
