@@ -156,7 +156,7 @@ const SignIn = (props) => {
           },
         ]}
         authSubmit={"Entrar"}
-        textImage={"Pag  Maq"}
+        textImage={"Pix  Coin"}
         authImage={signin}
         onsubmit={() => {
           onsubmit();

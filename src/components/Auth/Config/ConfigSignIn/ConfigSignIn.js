@@ -171,7 +171,7 @@ const ConfigSignIn = (props) => {
           },
         ]}
         authSubmit={"Iniciar minha PixCoin"}
-        textImage={"INICIAR Pag Maq"}
+        textImage={"INICIAR PIX COIN"}
         authImage={signin}
         onsubmit={() => {
           onsubmit();
